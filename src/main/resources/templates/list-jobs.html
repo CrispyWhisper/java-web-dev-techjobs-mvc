@@ -12,20 +12,6 @@
 
     <!-- TODO #1 - Use a loop to display job results in a table. -->
 
-<!--
-    <table class="job-listing">
-        <thead>
-            <tr>
-                <th>Job</th>
-            </tr>
-        </thead>
-        <tr th:each="job : ${jobs}">
-            <td th:text="${job}"></td>
-            <td th:text="${job.Employer}"></td>
-        </tr>
-    </table>
--->
-
     <th:block th:each="job : ${jobs}">
         <table class="job-listing">
             <tr>
